@@ -63,6 +63,7 @@ li {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
+    margin-bottom: 100px;
 
 }
 
@@ -72,4 +73,22 @@ li {
 
 .feature-title {
     color: rgb(255, 170, 0);
+}
+
+/*Footer*/
+
+.footer,ul{
+    list-style: none;
+    
+
+}
+footer{
+    background-color: rgb(49, 49, 48);
+    padding: 10px;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
 }
