@@ -1,22 +1,23 @@
-body{
+/*full document*/
+body {
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
     color: white;
 }
 
-nav{
+/*Navbar section*/
+nav {
     background-color: black;
     border-bottom: 1px solid white;
-    
- 
 }
-.logo{
-    margin-right:6em;
+
+.logo {
+    margin-right: 6em;
     color: rgb(255, 183, 0);
 }
 
-.nav_content{
+.nav_content {
     display: flex;
     list-style: none;
     margin: auto;
@@ -25,10 +26,11 @@ nav{
     color: white;
     margin: auto;
 }
-.login{
+
+.login {
     font-size: 20px;
     border-radius: 6px;
-    background-color:rgb(255, 183, 0) ;
+    background-color: rgb(255, 183, 0);
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -36,32 +38,38 @@ nav{
     padding-left: 8px;
 
 }
-.nav_content,li{
+
+.nav_content,
+li {
     margin-top: 7px;
 }
-.box-1{
+
+.box-1 {
     border: 1px solid white;
     border-radius: 7px;
     height: 300px;
     width: 300px;
     background-color: black;
-    
+
 }
 
-.feature{
-   text-align: center;
-   margin-top: 100px;
-   
+.feature {
+    text-align: center;
+    margin-top: 100px;
+
 }
-.feature-content{
+
+.feature-content {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
-    
+
 }
-.feature-icon{
+
+.feature-icon {
     font-size: 60px;
 }
-.feature-title{
-    color:rgb(255, 170, 0) ;
+
+.feature-title {
+    color: rgb(255, 170, 0);
 }
