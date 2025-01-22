@@ -5,6 +5,10 @@ body {
     background-color: black;
     color: white;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 
 /*Navbar section*/
 nav {
@@ -138,4 +142,35 @@ footer{
     margin-right: 40px;
    
 
+}
+
+/*Roadmap page*/
+
+/*Roadmap*/
+.roadmap{
+    height: 300px;
+    width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+
+}
+.addRoadmap{
+    padding: 13px;
+    border:none;
+    border-radius: 8px;
+    width: 300px;
+    justify-content: center;
+}
+
+.gen-RoadmapBtn{
+    width: 7rem;
+    height: 3rem;
+    color: white;
+    border-radius: 9px;
+    padding: 5px;
+    background-color: rgb(255, 166, 0);
+    margin-left: 10px;
 }
