@@ -174,3 +174,20 @@ footer{
     background-color: rgb(255, 166, 0);
     margin-left: 10px;
 }
+
+/*About page*/
+
+/*About section*/
+.About{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+
+.About-organization{
+    width: 400px;
+}
+/*our moto bullet points*/
+.our-moto{
+    list-style:circle;
+}
