@@ -184,6 +184,11 @@ footer{
     justify-content: center;
 }
 
+.About-Img{
+    margin-top: 100px;
+    margin-right: 60px;
+    
+}
 .About-organization{
     width: 400px;
 }
