@@ -196,3 +196,45 @@ footer{
 .our-moto{
     list-style:circle;
 }
+
+/*Login page*/
+
+.login-page{
+    height: 500px;
+    width: 400px;
+    border: 1px solid rgb(255, 187, 0);
+    border-radius: 14px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.enter-input{
+    position:relative;
+    margin-left: 30%;
+    margin-top: 30%;
+}
+
+input{
+    border: 1px solid rgb(255, 200, 0);
+    margin-bottom: 40px;
+    padding: 13px;
+    border-radius:13px ;
+
+}
+.forgot-btn{
+    margin-top:0.1px;
+    
+}
+
+.submit-btn{
+    margin-left: 40%;
+    padding: 10px;
+   border: none;
+    border-radius: 13px;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: rgb(255, 157, 0);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
