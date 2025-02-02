@@ -198,7 +198,7 @@ footer{
 }
 
 /*Login page*/
-.login-page {
+.login-card {
     height: 500px;
     width: 400px;
     border: 1px solid rgb(255, 187, 0);
@@ -241,3 +241,21 @@ input {
     font-size: larger;
     cursor: pointer;
 }
+
+.signup{
+    margin-top: 30px;
+ }
+ /*
+.signup-card{
+    height: 500px;
+    width: 400px;
+    border: 1px solid rgb(255, 187, 0);
+    border-radius: 14px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+} */
