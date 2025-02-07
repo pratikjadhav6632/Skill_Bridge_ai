@@ -31,7 +31,7 @@ nav {
     margin: auto;
 }
 
-.login {
+.login-btn {
     font-size: 20px;
     border-radius: 6px;
     background-color: rgb(255, 183, 0);
@@ -196,66 +196,3 @@ footer{
 .our-moto{
     list-style:circle;
 }
-
-/*Login page*/
-.login-card {
-    height: 500px;
-    width: 400px;
-    border: 1px solid rgb(255, 187, 0);
-    border-radius: 14px;
-    margin: 100px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-}
-
-.enter-input {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-input {
-    width: 80%;
-    border: 1px solid rgb(255, 200, 0);
-    margin-bottom: 20px;
-    padding: 13px;
-    border-radius: 13px;
-}
-
-.forgot-btn {
-    margin-bottom: 15px;
-}
-
-.submit-btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 13px;
-    background-color: rgb(255, 157, 0);
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-    cursor: pointer;
-}
-
-.signup{
-    margin-top: 30px;
- }
- /*
-.signup-card{
-    height: 500px;
-    width: 400px;
-    border: 1px solid rgb(255, 187, 0);
-    border-radius: 14px;
-    margin: 100px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-} */
