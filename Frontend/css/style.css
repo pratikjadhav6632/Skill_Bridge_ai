@@ -1,26 +1,30 @@
-/*full document*/
+/* General styles for the body */
 body {
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
     color: white;
 }
-a{
+
+/* Anchor tag styles */
+a {
     text-decoration: none;
     color: white;
 }
 
-/*Navbar section*/
+/* Navbar section */
 nav {
     background-color: black;
     border-bottom: 1px solid white;
 }
 
+/* Logo styles */
 .logo {
     margin-right: 6em;
     color: rgb(255, 183, 0);
 }
 
+/* Navigation content styles */
 .nav_content {
     display: flex;
     list-style: none;
@@ -31,6 +35,7 @@ nav {
     margin: auto;
 }
 
+/* Login button styles */
 .login-btn {
     font-size: 20px;
     border-radius: 6px;
@@ -40,49 +45,55 @@ nav {
     padding-bottom: 5px;
     padding-right: 8px;
     padding-left: 8px;
-
 }
 
+/* Navigation list item styles */
 .nav_content,
 li {
     margin-top: 7px;
 }
 
+/* Box styles for feature section */
 .box-1 {
     border: 1px solid white;
     border-radius: 7px;
     height: 300px;
     width: 300px;
     background-color: black;
-
 }
 
+/* Feature section styles */
 .feature {
     text-align: center;
     margin-top: 100px;
-
 }
 
+/* Feature content styles */
 .feature-content {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
     margin: 100px;
-
 }
 
+/* Feature icon styles */
 .feature-icon {
     font-size: 60px;
 }
 
+/* Feature title styles */
 .feature-title {
     color: rgb(255, 170, 0);
 }
-.getstartedbtn{
+
+/* Get started button container styles */
+.getstartedbtn {
     display: flex;
     justify-content: center;
 }
-.g-start-btn{
+
+/* Get started button styles */
+.g-start-btn {
     background-color: blue;
     color: white;
     font-size: larger;
@@ -92,80 +103,89 @@ li {
     margin-bottom: 50px;
 }
 
-/*Footer*/
-
-footer{
+/* Footer section */
+footer {
     background-color: rgb(10, 10, 10);
     border-top: 1px solid #ffffff;
     padding: 10px;
-
 }
-.f-content{
+
+/* Footer content styles */
+.f-content {
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
-.info{
+
+/* Footer info styles */
+.info {
     width: 200px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: small;
 }
-.f-box1 ul{
-    list-style: none;
-    width: 200px;
 
-}
-.f-box2 ul{
+/* Footer box 1 styles */
+.f-box1 ul {
     list-style: none;
     width: 200px;
 }
-.arrow{
+
+/* Footer box 2 styles */
+.f-box2 ul {
+    list-style: none;
+    width: 200px;
+}
+
+/* Arrow icon styles */
+.arrow {
     margin-left: 16px;
 }
 
-.copyright{
+/* Copyright section styles */
+.copyright {
     display: flex;
     justify-content: center;
 }
-/*External links*/
-.external-link{
+
+/* External link styles */
+.external-link {
     padding: 10px;
 }
-/*Social*/
-.social ul{
-    display:flex ;
+
+/* Social media section styles */
+.social ul {
+    display: flex;
     list-style: none;
     justify-content: end;
     gap: 20px;
-    font-size:24px;
+    font-size: 24px;
     margin-right: 40px;
-   
-
 }
 
-/*Roadmap page*/
+/* Roadmap page styles */
 
-/*Roadmap*/
-.roadmap{
+/* Roadmap container styles */
+.roadmap {
     height: 300px;
     width: 400px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    
-
 }
-.addRoadmap{
+
+/* Add roadmap button styles */
+.addRoadmap {
     padding: 13px;
-    border:none;
+    border: none;
     border-radius: 8px;
     width: 300px;
     justify-content: center;
 }
 
-.gen-RoadmapBtn{
+/* Generate roadmap button styles */
+.gen-RoadmapBtn {
     width: 7rem;
     height: 3rem;
     color: white;
@@ -175,24 +195,27 @@ footer{
     margin-left: 10px;
 }
 
-/*About page*/
+/* About page styles */
 
-/*About section*/
-.About{
+/* About section container styles */
+.About {
     display: flex;
     height: 500px;
     justify-content: center;
 }
 
-.About-Img{
+/* About image styles */
+.About-Img {
     margin-top: 100px;
     margin-right: 60px;
-    
 }
-.About-organization{
+
+/* About organization text styles */
+.About-organization {
     width: 400px;
 }
-/*our moto bullet points*/
-.our-moto{
-    list-style:circle;
+
+/* Our moto bullet points styles */
+.our-moto {
+    list-style: circle;
 }

@@ -1,10 +1,15 @@
+/* Importing the Poppins font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Resetting margin, padding, and setting box-sizing and font-family for all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+/* Styling the body element */
 body {
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -12,6 +17,8 @@ body {
     color: white;
     justify-content: center;
 }
+
+/* Styling the wrapper container */
 .wrapper {
   position: relative;
   width: 400px;
@@ -21,12 +28,12 @@ body {
   border-radius: 20px;
   padding: 40px;
   overflow: hidden;
-    margin: auto;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-  
+  margin: auto;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
+/* Styling the form wrapper */
 .form-wrapper {
   display: flex;
   justify-content: center;
@@ -35,27 +42,39 @@ body {
   height: 100%;
   transition: 1s ease-in-out;
 }
+
+/* Transforming the sign-in form when the wrapper is active */
 .wrapper.active .form-wrapper.sign-in {
   transform: translateY(-450px);
 }
+
+/* Positioning the sign-up form */
 .wrapper .form-wrapper.sign-up {
   position: absolute;
   top: 450px;
   left: 0;
 }
+
+/* Transforming the sign-up form when the wrapper is active */
 .wrapper.active .form-wrapper.sign-up {
   transform: translateY(-450px);
 }
+
+/* Styling the h2 elements */
 h2 {
   font-size: 30px;
   color: #fff;
   text-align: center;
 }
+
+/* Styling the input group */
 .input-group {
   position: relative;
   margin: 30px 0;
   border-bottom: 2px solid #fff;
 }
+
+/* Styling the labels inside the input group */
 .input-group label {
   position: absolute;
   top: 50%;
@@ -66,6 +85,8 @@ h2 {
   pointer-events: none;
   transition: .5s;
 }
+
+/* Styling the input fields */
 .input-group input {
   width: 320px;
   height: 40px;
@@ -76,21 +97,31 @@ h2 {
   border: none;
   outline: none;
 }
+
+/* Moving the label when the input is focused or has a value */
 .input-group input:focus~label,
 .input-group input:valid~label {
   top: -5px;
 }
+
+/* Styling the remember me checkbox */
 .remember {
   margin: -5px 0 15px 5px;
 }
+
+/* Styling the remember me label */
 .remember label {
   color: #fff;
   font-size: 14px;
 }
+
+/* Styling the checkbox inside the remember me label */
 .remember label input {
   accent-color: rgb(251, 198, 6);
 }
-.btn{
+
+/* Styling the button */
+.btn {
   position: relative;
   width: 100%;
   height: 40px;
@@ -104,19 +135,27 @@ h2 {
   border: none;
   outline: none;
 }
+
+/* Styling the sign-up link container */
 .signUp-link {
   font-size: 14px;
   text-align: center;
   margin: 15px 0;
 }
+
+/* Styling the paragraph inside the sign-up link container */
 .signUp-link p {
   color: #fff;
 }
+
+/* Styling the anchor inside the sign-up link paragraph */
 .signUp-link p a {
   color: rgb(0, 145, 255);
   text-decoration: none;
   font-weight: 500;
 }
+
+/* Adding hover effect to the sign-up link */
 .signUp-link p a:hover {
   text-decoration: underline;
 }
