@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animated Login & Registration Form | Codehal</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <!-- Linking external CSS files -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
 <body>
     <header>
-        <!--Navbar-->
+        <!-- Navbar section -->
         <nav>
-
             <ul class="nav_content">
                 <li class="logo">Skill Bridge Ai</li>
                 <li><a href="index.html">Home</a></li>
@@ -21,94 +21,62 @@
                 <li>Market insights</li>
                 <li>Trending</li>
                 <li>Contact</li>
-               <a href="login.html">  <button class="login-btn">login</button></a>
+                <!-- Login button -->
+                <a href="login.html"><button class="login-btn">login</button></a>
             </ul>
         </nav>
-</header>
-  <div class="wrapper box">
-    <div class="form-wrapper sign-in">
-      <form action="">
-        <h2>Login</h2>
-        <div class="input-group">
-          <input type="text" required>
-          <label for="">Username</label>
+    </header>
+    <!-- Main content wrapper -->
+    <div class="wrapper box">
+        <!-- Login form -->
+        <div class="form-wrapper sign-in">
+            <form action="">
+                <h2>Login</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="signUp-link">
+                    <p>Don't have an account? <a href="#" class="signUpBtn-link">Sign Up</a></p>
+                </div>
+            </form>
         </div>
-        <div class="input-group">
-          <input type="password" required>
-          <label for="">Password</label>
-        </div>
-        <div class="remember">
-          <label><input type="checkbox"> Remember me</label>
-        </div>
-        <button type="submit" class="btn">Login</button>
-        <div class="signUp-link">
-          <p>Don't have an account? <a href="#" class="signUpBtn-link">Sign Up</a></p>
-        </div>
-      </form>
-    </div>
-    <div class="form-wrapper sign-up">
-      <form action="">
-        <h2>Sign Up</h2>
-        <div class="input-group">
-          <input type="text" required>
-          <label for="">Username</label>
-        </div>
-        <div class="input-group">
-          <input type="email" required>
-          <label for="">Email</label>
-        </div>
-        <div class="input-group">
-          <input type="password" required>
-          <label for="">Password</label>
-        </div>
-        <div class="remember">
-          <label><input type="checkbox"> I agree to the terms & conditions</label>
-        </div>
-        <button type="submit" class="btn">Sign Up</button>
-        <div class="signUp-link">
-          <p>Already have an account? <a href="#" class="signInBtn-link">Sign In</a></p>
-        </div>
-      </form>
-    </div>
-  </div>
-  
-  <footer>
-    <section>
-        <div class="f-content">
-            <div class="info">
-                <img src="" alt="brand logo">
-                <h2>Skill-Bridge-Ai</h2>
-                <p>Empowering youth by aligning their skills with market demands. Compare your skills with company requirements, get tailored skill suggestions, discover emerging trends, and track your progress to succeed in today's competitive job market."</p>
-            </div>
-        <div class="f-box1">
-            <ul>
-                <li class="external-link">Home  <i class="fa-solid fa-arrow-up-right-from-square arrow"></i></li>
-                <li class="external-link">About <i class="fa-solid fa-arrow-up-right-from-square arrow"></i></li>
-                <li class="external-link">Roadmap <i class="fa-solid fa-arrow-up-right-from-square arrow"></i></li>
-            </ul>
-        </div>
-        <div class="f-box2">
-            <ul>
-                <li class="external-link">Market insights <i class="fa-solid fa-arrow-up-right-from-square arrow"></i></li>
-                <li class="external-link">Trending <i class="fa-solid fa-arrow-up-right-from-square arrow"></i></li>
-                <li class="external-link">Contact <i class="fa-solid fa-arrow-up-right-from-square arrow"></i></li>
-            </ul>
+        <!-- Sign up form -->
+        <div class="form-wrapper sign-up">
+            <form action="">
+                <h2>Sign Up</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+                <div class="signUp-link">
+                    <p>Already have an account? <a href="#" class="signInBtn-link">Sign In</a></p>
+                </div>
+            </form>
         </div>
     </div>
-        <div class="social">
-            <ul>
-                <li><i class="fa-brands fa-instagram"></i></li>
-                <li><i class="fa-brands fa-square-x-twitter"></i></li>
-                <li><i class="fa-brands fa-linkedin"></i></li>
-                <li><i class="fa-brands fa-square-github"></i></li>
-                <li></li>
-            </ul>
-        </div>
-        <div class="copyright">
-            <h3> &copy Copyright 2025 Skill_Bridge_Ai</h3>
-        </div>
-    </section>
-</footer>
-  <script src="js/login.js"></script>
+    
+    <!-- Linking external JavaScript file -->
+    <script src="../js/login.js"></script>
 </body>
 </html>
