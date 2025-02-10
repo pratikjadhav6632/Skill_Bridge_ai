@@ -1,0 +1,21 @@
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: aliceblue;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    &:hover{  
+        height:120px;
+        width: 210px;
+    }
+}
+
+.contact{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
