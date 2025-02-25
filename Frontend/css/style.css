@@ -219,3 +219,23 @@ footer {
 .our-moto {
     list-style: circle;
 }
+
+
+/* trend page style*/
+.trend-tech{
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+}
+
+.tech{
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+   margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
