@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <!-- Linking external CSS files -->
-  <link rel="stylesheet" href="../css/style.css">
-    <!-- <script type="module" src="./js/login.js" defer></script> -->
-  <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="module" src="../js/register.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
 <body>
     <header>
-        <!-- Navbar section -->
         <nav>
             <ul class="nav_content">
                 <li class="logo">Skill Bridge Ai</li>
@@ -20,65 +18,57 @@
                 <li><a href="About.html">About</a></li>
                 <li><a href="Roadmap.html">Roadmap</a></li>
                 <li>Market insights</li>
-                <li ><a href="trend.html">Trending</a></li>
+                <li><a href="trend.html">Trending</a></li>
                 <li>Contact</li>
-                <!-- Login button -->
-                <a href="login.html"><button class="login-btn">login</button></a>
-            </ul>
+                </ul>
         </nav>
     </header>
-    <!-- Main content wrapper -->
     <div class="wrapper box">
-        <!-- Login form -->
         <div class="form-wrapper sign-in">
-            <form action="">
+            <form id="loginForm">
                 <h2>Login</h2>
                 <div class="input-group">
-                    <input id="email" type="email" required>
-                    <label for="">Username</label>
+                    <input id="loginEmail" type="email" required>
+                    <label for="loginEmail">Email</label>
                 </div>
                 <div class="input-group">
-                    <input id="password" type="password" required>
-                    <label for="">Password</label>
+                    <input id="loginPassword" type="password" required>
+                    <label for="loginPassword">Password</label>
                 </div>
                 <div class="remember">
                     <label><input type="checkbox"> Remember me</label>
                 </div>
-                <button id="submit" type="submit" class="btn">Login</button>
+                <button id="login" type="submit" class="btn">Login</button>
                 <div class="signUp-link">
                     <p>Don't have an account? <a href="#" class="signUpBtn-link">Sign Up</a></p>
                 </div>
             </form>
         </div>
-        <!-- Sign up form -->
         <div class="form-wrapper sign-up">
-            <form action="">
+            <form id="signupForm">
                 <h2>Sign Up</h2>
                 <div class="input-group">
-                    <input id="username" type="text" required>
-                    <label for="">Username</label>
+                    <input id="signupUsername" type="text" required>
+                    <label for="signupUsername">Username</label>
                 </div>
                 <div class="input-group">
-                    <input id="email" type="email" required>
-                    <label for="">Email</label>
+                    <input id="signupEmail" type="email" required>
+                    <label for="signupEmail">Email</label>
                 </div>
                 <div class="input-group">
-                    <input id="password" type="password" required>
-                    <label for="">Password</label>
+                    <input id="signupPassword" type="password" required>
+                    <label for="signupPassword">Password</label>
                 </div>
                 <div class="remember">
                     <label><input type="checkbox"> I agree to the terms & conditions</label>
                 </div>
-                <button id="submit" type="submit" class="btn">Sign Up</button>
+                <button id="signup" type="submit" class="btn">Sign Up</button>
                 <div class="signUp-link">
                     <p>Already have an account? <a href="#" class="signInBtn-link">Sign In</a></p>
                 </div>
             </form>
         </div>
     </div>
-    
-    <!-- Linking external JavaScript file -->
     <script src="../js/login.js"></script>
-
 </body>
 </html>
